@@ -15,17 +15,12 @@ public class logo extends AppCompatActivity {
 
 
         Handler handler = new Handler();
-        handler.postDelayed(new Runnable() {
-                                        @Override
-                                        public void run () {
-                                            // code
-                                            Intent intent = new Intent(logo.this, MainActivity.class);
-                                            startActivity(intent);
-                                            finish();
-                                        }
-                                    },2000);
+        handler.postDelayed(() -> {
 
-
+            Intent intent = new Intent(logo.this, MainActivity.class);
+            startActivity(intent);
+            finish();
+        },2000);
 
     }
 }
