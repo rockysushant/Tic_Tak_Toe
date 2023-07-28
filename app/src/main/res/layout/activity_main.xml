@@ -16,39 +16,56 @@
         android:columnCount="3"
         android:rowCount="3">
         <Button
-
+            android:layout_width="110dp"
+            android:layout_height="60dp"
             android:id="@+id/btn1"
             android:layout_marginLeft="11dp"
             android:onClick="Check"/>
         <Button
+            android:layout_width="110dp"
+            android:layout_height="60dp"
             android:id="@+id/btn2"
             android:layout_marginLeft="11dp"
             android:onClick="Check"/>
         <Button
+            android:layout_width="110dp"
+            android:layout_height="60dp"
             android:id="@+id/btn3"
             android:layout_marginLeft="11dp"
             android:onClick="Check"/>
         <Button
+            android:layout_width="110dp"
+            android:layout_height="60dp"
             android:id="@+id/btn4"
             android:layout_marginLeft="11dp"
             android:onClick="Check"/>
         <Button
+            android:layout_width="110dp"
+            android:layout_height="60dp"
             android:id="@+id/btn5"
             android:layout_marginLeft="11dp"
             android:onClick="Check"/>
         <Button
+            android:layout_width="110dp"
+            android:layout_height="60dp"
             android:id="@+id/btn6"
             android:layout_marginLeft="11dp"
             android:onClick="Check"/>
         <Button
+            android:layout_width="110dp"
+            android:layout_height="60dp"
             android:id="@+id/btn7"
             android:layout_marginLeft="11dp"
             android:onClick="Check"/>
         <Button
+            android:layout_width="110dp"
+            android:layout_height="60dp"
             android:id="@+id/btn8"
             android:layout_marginLeft="11dp"
             android:onClick="Check"/>
         <Button
+            android:layout_width="110dp"
+            android:layout_height="60dp"
             android:id="@+id/btn9"
             android:layout_marginLeft="11dp"
             android:onClick="Check"/>

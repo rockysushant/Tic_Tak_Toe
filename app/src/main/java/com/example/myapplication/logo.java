@@ -15,6 +15,7 @@ public class logo extends AppCompatActivity {
 
 
         Handler handler = new Handler();
+<<<<<<< HEAD
         handler.postDelayed(new Runnable() {
                                         @Override
                                         public void run () {
@@ -25,7 +26,14 @@ public class logo extends AppCompatActivity {
                                         }
                                     },3500);
 
+=======
+        handler.postDelayed(() -> {
+>>>>>>> 126c39607946799214fab710929506c479d18ae7
 
+            Intent intent = new Intent(logo.this, MainActivity.class);
+            startActivity(intent);
+            finish();
+        },2000);
 
     }
 }
